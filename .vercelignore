@@ -1,0 +1,11 @@
+tests/
+docs/
+scripts/
+data/
+*.db
+.env
+requirements-dev.txt
+web/
+.venv/
+__pycache__/
+.pytest_cache/

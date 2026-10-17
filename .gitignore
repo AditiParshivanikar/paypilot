@@ -1,0 +1,28 @@
+# Secrets: never commit real environment files (templates are fine)
+.env
+.env.local
+.env.*
+!.env.example
+*.pem
+.vercel/
+
+# Local data
+data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+
+# Node / Next.js
+node_modules/
+.next/
+
+# OS
+.DS_Store
+Thumbs.db

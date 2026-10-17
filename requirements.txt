@@ -1,0 +1,11 @@
+# API runtime only (this is what the Vercel function installs). Dev tools live in requirements-dev.txt.
+fastapi>=0.115,<1.0
+pydantic>=2.10,<3
+anthropic>=0.40,<2
+# Pinned: 1.1.0 is the newest release whose only dependencies are httpx, requests and pydantic.
+# 1.2.0+ also require crewai-tools, langchain and openai-agents (only used by the toolkit's framework
+# adapters, which PayPilot does not use). These fail to build on Windows without C++ tools and bloat the
+# serverless bundle. 1.1.0 has the same PayPalAPI/Context/client interface and all invoice tools we need.
+paypal-agent-toolkit==1.1.0
+requests>=2.31,<3
+python-dotenv>=1.0,<2
