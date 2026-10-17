@@ -1,5 +1,7 @@
 # PayPilot
 
+**Live demo:** (coming soon)
+
 PayPilot is an AI payments assistant for freelancers and small businesses in India. The owner types what they
 want ("Invoice Rahul for ₹4,000 for logo design, due Friday"), the assistant drafts the action and shows a
 preview, and **nothing is sent, charged or refunded until the owner clicks Approve**. It works with PayPal
